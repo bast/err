@@ -31,4 +31,4 @@ navigation = [
   { name = "Desserts", path = "/desserts/" },
 ]
 
-# twitter_image = "https://example.org/example.png"
+twitter_image = "https://raw.githubusercontent.com/bast/err/main/content/img/wine.png"
