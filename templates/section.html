@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+  {{ section.content | safe }}
+
+  <div class="ui items">
+    {% for recipe in section.pages %}
+      <div class="item">
+        <div class="content">
+          {% set img = resize_image(path="img/glove.png", width=24, op="fit_width") %}
+          <a href="{{ recipe.permalink | safe }}">
+            <img src="{{ img.url }}" alt="glove icon"/>
+          </a>
+          {{ recipe.title }}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+
+{% endblock content %}
