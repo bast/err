@@ -1,20 +1,25 @@
 {% extends "base.html" %}
 
 {% block content %}
-  {{ section.content | safe }}
+{% set img = resize_image(path="img/glove.png", width=24, op="fit_width") %}
 
-  <div class="ui items">
-    {% for recipe in section.pages %}
-      <div class="item">
-        <div class="content">
-          {% set img = resize_image(path="img/glove.png", width=24, op="fit_width") %}
-          <a href="{{ recipe.permalink | safe }}">
-            <img src="{{ img.url }}" alt="glove icon"/>
-          </a>
-          {{ recipe.title }}
-        </div>
-      </div>
-    {% endfor %}
+  <div class="uk-overflow-auto">
+    <table class="uk-table uk-table-hover uk-table-middle">
+      <tbody>
+        {% for recipe in section.pages %}
+          <tr>
+            <td class="uk-width-small">
+              <a href="{{ recipe.permalink | safe }}">
+                <img src="{{ img.url }}" alt="glove icon"/>
+              </a>
+            </td>
+            <td class="uk-table-link">
+              <a class="uk-link-reset" href="{{ recipe.permalink | safe }}">{{ recipe.title }}</a>
+            </td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
   </div>
 
 {% endblock content %}

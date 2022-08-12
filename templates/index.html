@@ -1,28 +1,21 @@
 {% extends "base.html" %}
 
 {% block content %}
-  <div class="ui stackable grid">
-
-    <!-- images -->
-    <div class="sixteen wide column">
-      <div class="small-buffer">
-        {% set img = resize_image(path="img/e.png", width=150, op="fit_width") %}
-        <img src="{{ img.url }}"
-             alt="e" class="pull-left mr-2"/>
-        {% set img = resize_image(path="img/r.jpg", width=150, op="fit_width") %}
-        <img src="{{ img.url }}"
-             alt="r" class="pull-left mr-2"/>
-        {% set img = resize_image(path="img/wine.png", width=150, op="fit_width") %}
-        <img src="{{ img.url }}"
-             alt="wine bottle" class="pull-left mr-2"/>
-      </div>
+  <div uk-grid>
+    <div>
+      {% set img = resize_image(path="img/e.png", width=150, op="fit_width") %}
+      <img src="{{ img.url }}"
+           alt="e"/>
+      {% set img = resize_image(path="img/r.jpg", width=150, op="fit_width") %}
+      <img src="{{ img.url }}"
+           alt="r"/>
+      {% set img = resize_image(path="img/wine.png", width=150, op="fit_width") %}
+      <img src="{{ img.url }}"
+           alt="wine bottle"/>
     </div>
 
-    <div class="sixteen wide column">
-      <div class="small-buffer">
-        {{ section.content | safe }}
-      </div>
+    <div>
+      {{ section.content | safe }}
     </div>
-
   </div>
 {% endblock content %}
