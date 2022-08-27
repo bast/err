@@ -51,7 +51,7 @@ Then:
 - 1/4 teaspoon salt
 - 1/4 teaspoon cardamom
 - 1/4 cup white sugar
-- 1/4 cup brown sugar
+- 1/3 cup brown sugar
 - 20 mL rum
 
 
