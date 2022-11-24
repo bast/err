@@ -18,10 +18,19 @@ template = "recipe.html"
 - Can of evaporated milk
 - 0.4 cup sugar
 - 0.5 tsp salt
-- 1 tsp cinnamon
+- 2 tsp cinnamon
 - 1 tsp ginger, ground or juice
-- 0.5 tsp ground clover
+- 0.5 tsp ground cloves
 - 2 eggs
+
+
+### Instructions
+
+- Mix dry ingredients
+- Add pumpkin pulp
+- Smash manually until somehow homogeneous
+- Add eggs and blend
+- Add evaporated milk and blend
 
 
 ### Baking
