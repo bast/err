@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://e-r.recipes"
+base_url = "https://ingredients.lol"
 
 title = "e & r recipes"
 
