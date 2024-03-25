@@ -29,8 +29,9 @@ need to chop them up finely, the blender will take care of that.
 - Let them sit for a minute or so to let the egg settle to the bottom. Oil will
   swim on top.
 - Push the hand blender all the way to the bottom, hold it there, and start
-  blending. Do not move the blender until you see the mayonnaise forming at the bottom. I
-  typically count to 10 or 15 before I start moving the blender slowly up.
-  Then I move blend up and down until everything is blended (15 seconds?).
+  blending. Do not move the blender until you see the mayonnaise forming at
+  the bottom and moving to the top. I typically count to 10 or 15 before I
+  start moving the blender slowly up.  Then I move blend up and down until
+  everything is blended (15 seconds?).
 - I mix it a bit more then with a spoon.
 - Bottle it and store it in the fridge.
