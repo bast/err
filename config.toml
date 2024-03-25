@@ -23,12 +23,12 @@ highlight_theme = "cheerfully-light"
 [extra]
 
 navigation = [
-  { name = "Home", path = "/" },
-  { name = "Soups", path = "/soups/" },
-  { name = "Mains", path = "/mains/" },
-  { name = "Sides", path = "/sides/" },
-  { name = "Pasta", path = "/pasta/" },
-  { name = "Desserts", path = "/desserts/" },
+  { name = "Home", target = "/" },
+  { name = "Soups", target = "/soups/" },
+  { name = "Mains", target = "/mains/" },
+  { name = "Sides", target = "/sides/" },
+  { name = "Pasta", target = "/pasta/" },
+  { name = "Desserts", target = "/desserts/" },
 ]
 
 twitter_image = "https://raw.githubusercontent.com/bast/err/main/content/img/wine.png"
