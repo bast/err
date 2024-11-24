@@ -11,3 +11,5 @@ navigation:
     target: /pasta/
   - name: Desserts
     target: /desserts/
+  - name: Old recipes
+    target: /old-recipes/
