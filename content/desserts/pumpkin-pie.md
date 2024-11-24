@@ -11,7 +11,7 @@ template = "recipe.html"
 - Use 2 cups of pumpkin pulp per pie
 
 
-### Ingredients
+## Ingredients
 
 - Pie shell
 - Nutmeg
@@ -24,7 +24,7 @@ template = "recipe.html"
 - 2 eggs
 
 
-### Instructions
+## Instructions
 
 - Mix dry ingredients
 - Add pumpkin pulp
@@ -33,7 +33,7 @@ template = "recipe.html"
 - Add evaporated milk and blend
 
 
-### Baking
+## Baking
 
 - 15 min at 425 F
 - 40-50 min at 350 F
