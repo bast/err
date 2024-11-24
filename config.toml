@@ -3,10 +3,6 @@ base_url = "https://ingredients.lol"
 
 title = "e & r recipes"
 
-description = '''
-Collection of recipes.
-'''
-
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
