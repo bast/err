@@ -1,0 +1,13 @@
+navigation:
+  - name: Home
+    target: /
+  - name: Soups
+    target: /soups/
+  - name: Mains
+    target: /mains/
+  - name: Sides
+    target: /sides/
+  - name: Pasta
+    target: /pasta/
+  - name: Desserts
+    target: /desserts/
