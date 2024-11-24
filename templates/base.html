@@ -17,14 +17,16 @@
   <body>
     <div class="uk-container uk-margin-large-bottom">
 
-      {% include "navigation.html" %}
+      <div class="uk-margin-bottom">
+        {% include "navigation.html" %}
+      </div>
 
       <div class="markdown">
         {% block content %}
         {% endblock content %}
       </div>
 
-      <div class="uk-margin-medium-top">
+      <div class="uk-margin-xlarge-top">
         <hr>
       </div>
 
