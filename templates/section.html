@@ -1,7 +1,10 @@
 {% extends "base.html" %}
 
 {% block content %}
-{% set img = resize_image(path="img/glove.png", width=24, op="fit_width") %}
+
+  <h1>{{ section.title }}</h1>
+
+  {% set img = resize_image(path="img/glove.png", width=24, op="fit_width") %}
 
   <div class="uk-overflow-auto">
     <table class="uk-table uk-table-hover uk-table-middle">
