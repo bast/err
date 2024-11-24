@@ -14,3 +14,4 @@ template = "recipe.html"
 ## Instructions
 
 - 165 C top/bottom heat for 18 min
+- [Good introduction to macarons](https://www.piesandtacos.com/swiss-meringue-macaron-recipe/)
