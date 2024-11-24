@@ -22,3 +22,8 @@ hr {
 img {
     margin-right: 16px;
 }
+
+.uk-table-hover tbody tr:hover {
+    background-color: #f0f8ff;
+    color: #000000;
+}
