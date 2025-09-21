@@ -2,7 +2,7 @@ name: Build/deploy website
 
 env:
   ZOLA_VERSION: "0.20.0"
-  CNAME: "ingredients.lol"
+  CNAME: "rezipes.space"
 
 on:
   push:
