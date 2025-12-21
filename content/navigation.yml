@@ -11,5 +11,7 @@ navigation:
     target: /pasta/
   - name: Desserts
     target: /desserts/
+  - name: Fermentation
+    target: /fermentation/
   - name: Old recipes
     target: /old-recipes/
