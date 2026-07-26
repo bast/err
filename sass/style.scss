@@ -1,12 +1,14 @@
-// https://getuikit.com/docs/sass
-@import "../uikit/src/scss/variables-theme.scss";
-@import "../uikit/src/scss/mixins-theme.scss";
-@import "../uikit/src/scss/uikit-theme.scss";
+// UIKit CSS + JS are loaded from the jsDelivr CDN in templates/base.html.
+// This file only holds site-specific overrides.
 
 .markdown ul {
-    @extend .uk-list;
-    @extend .uk-list-square;
+    padding-left: 30px;
+    list-style-type: square;
+}
 
+// match UIKit's .uk-list spacing between items
+.markdown ul > li + li {
+    margin-top: 10px;
 }
 
 hr {
